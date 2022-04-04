@@ -1,17 +1,2 @@
-.eunit
-*.o
+# Ignorando o programa compilado
 *.beam
-*.plt
-erl_crash.dump
-.concrete/DEV_MODE
-
-# rebar 2.x
-.rebar
-rel/example_project
-ebin/*.beam
-deps
-
-# rebar 3
-.rebar3
-_build/
-_checkouts/
